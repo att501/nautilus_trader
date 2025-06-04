@@ -72,3 +72,16 @@ instance to either simulate or execute real trades.
 
 This approach combines NautilusTrader's robust trading infrastructure with a
 GNN-based model for detecting triangular arbitrage opportunities.
+
+## 7. Example Module
+
+The repository includes a reference implementation under
+`examples/triangular_gnn/`. This module contains:
+
+- Data ingestion utilities (`ingestion.py`)
+- Graph construction helpers (`graph_builder.py`)
+- A simple GNN model (`model.py`)
+- Training and refinement loops (`train.py`, `refine.py`)
+- Backtesting and live execution scripts (`backtest.py`, `execute.py`)
+
+Use these files as a starting point for building your own workflow.
